@@ -74,3 +74,10 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.flag {
+    width: 50px; /* Adatta la larghezza a seconda delle tue necessità */
+    height: auto; /* Mantiene le proporzioni dell'immagine */
+    display: block;
+    margin: 10px auto; /* Centra l'immagine orizzontalmente */
+}
+
