@@ -11,33 +11,42 @@
         <h1>Sassuolo Fan Token</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Cos'è</a></li>
-                <li><a href="#">Come funziona</a></li>
-                <li><a href="#">Contatti</a></li>
+                <li><a href="#about">Chi Siamo</a></li>
+                <li><a href="#features">Caratteristiche</a></li>
+                <li><a href="#contact">Contattaci</a></li>
             </ul>
-            <div class="language-switcher">
-                <a href="#"><img src="img/it.png" alt="Italiano"></a>
-                <a href="#"><img src="img/en.png" alt="English"></a>
-                <a href="#"><img src="img/es.png" alt="Español"></a>
-                <a href="#"><img src="img/de.png" alt="Deutsch"></a>
-                <a href="#"><img src="img/zh.png" alt="中文"></a>
-            </div>
         </nav>
     </header>
 
-    <section class="intro">
-        <h2>Cos'è il Sassuolo Fan Token?</h2>
-        <p>Il Sassuolo Fan Token è una criptovaluta che ti permette di essere più vicino alla tua squadra del cuore. Con il Fan Token puoi partecipare alle decisioni del club, accedere a premi esclusivi e vivere esperienze uniche come tifoso.</p>
+    <section id="about">
+        <h2>Chi Siamo</h2>
+        <p>Benvenuti nel sito ufficiale del Sassuolo Fan Token! Scopri come puoi essere parte della nostra comunità e vivere esperienze esclusive.</p>
     </section>
 
-    <section class="how-it-works">
-        <h2>Come funziona?</h2>
-        <p>Acquistando i Fan Token, puoi influenzare alcune scelte del club, partecipare a sondaggi e ottenere ricompense esclusive. Utilizza piattaforme come Socios.com per comprare i tuoi token e iniziare a votare e partecipare alle attività del Sassuolo Calcio.</p>
+    <section id="features">
+        <h2>Caratteristiche</h2>
+        <ul>
+            <li>Partecipazione a eventi esclusivi</li>
+            <li>Voto su decisioni importanti</li>
+            <li>Accesso a contenuti speciali</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contattaci</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Messaggio:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Invia</button>
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2024 Sassuolo Fan Token - Non ufficiale</p>
+        <p>&copy; 2024 Sassuolo Fan Token. Tutti i diritti riservati.</p>
     </footer>
 </body>
 </html>
