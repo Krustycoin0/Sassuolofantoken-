@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4; /* Colore di sfondo chiaro per contrastare il verde */
 }
 
 header {
-    background-color: #333;
+    background-color: #2E8B57; /* Verde scuro */
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -35,7 +36,7 @@ section {
 }
 
 section h2 {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #2E8B57; /* Verde scuro */
     padding-bottom: 10px;
 }
 
@@ -58,14 +59,14 @@ form input, form textarea {
 form button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #2E8B57; /* Verde scuro */
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 footer {
-    background-color: #333;
+    background-color: #2E8B57; /* Verde scuro */
     color: #fff;
     text-align: center;
     padding: 10px 0;
